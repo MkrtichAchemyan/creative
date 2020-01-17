@@ -1,0 +1,220 @@
+.card-body {
+    font-size: 13px !important;
+}
+
+.about-content .left .accordion .card {
+    border-radius: 0 !important;
+}
+
+.accordion>.card:not(:last-of-type) {
+    border: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.card-header h2 {
+    color: #131313 !important;
+    text-decoration: none;
+}
+
+.card-header h2 button{
+    color: #131313 !important;
+    text-decoration: none;
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-radius: 0;
+    vertical-align: top;
+}
+
+.card-header .btn {
+    color: #131313;
+    text-decoration: none;
+}
+.card-header h2[aria-expanded="true"] {
+    color: #ff0036 !important;
+}
+
+.card-header h2[aria-expanded="true"] .fa-plus-circle{
+    display:none;
+}
+
+.card-header h2[aria-expanded="true"] .fa-minus-circle{
+    display:inline-block;
+}
+
+.card-header h2[aria-expanded="false"] .fa-plus-circle{
+    display: inline-block;
+}
+
+.card-header h2[aria-expanded="false"] .fa-minus-circle{
+    display: none;
+}
+
+.card-header h2[aria-expanded="true"] button{
+    color: #ff0036 !important;
+}
+
+.card-header h2:hover {
+    color: #ff0036 !important;
+    cursor: pointer;
+}
+
+.card-header h2:hover .btn{
+    color: #ff0036 !important;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fa-plus-circle{
+    font-size: 20px;
+    transform: translate(-4px, -4px);
+}
+.fa-minus-circle{
+    font-size: 20px;
+    transform: translate(-4px, -4px);
+}
+
+.hexagon-big {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    transform: rotate(120deg);
+    background-color: #ff0036;
+    overflow: hidden;
+    visibility: hidden;
+    align-items: center;
+}
+
+.hex-big-inside {
+    width: 100%;
+    height: 100%;
+    background: darkgreen;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.hex-big-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/about/hex-big.png");
+    background-position: center;
+    background-size: 80% 100%;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.hex-left {
+    position: absolute;
+    top: 45px;
+    left: -27px;
+    clip-path: polygon(59% 0%, 28% 50%, 59% 100%, 39% 100%, 5% 50%, 39% 0%);
+    background-image: url("../../images/about/hex-left.png");
+    background-position: right;
+    background-size: 113% 100%;
+    background-color: #ff0036;
+    width: 300px;
+    height: 325px;
+    display: inline-block;
+}
+
+.hex-left .overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.hex-right {
+    position: absolute;
+    clip-path: polygon(57% 0%, 90% 50%, 59% 100%, 37% 100%, 68% 50%, 37% 0);
+    background-image: url("../../images/about/hex-rigth.png");
+    background-position: left 42%;
+    background-size: 126% 132%;
+    width: 300px;
+    height: 325px;
+    display: inline-block;
+    right: -39px;
+    top: 45px;
+}
+
+.hex-right .overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .hex-right{
+        right: 149px;
+        top: 12px;
+    }
+    .hex-left{
+        left: 161px;
+        top: 12px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .hex-right{
+        right: 28px;
+        top: 13px;
+    }
+    .hex-left{
+        left: 40px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .hex-right{
+        right: -63px;
+        top: 13px;
+    }
+    .hex-left{
+        left: -50px;
+        top: 13px;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 320px){
+    .hexagon-big {
+        position: relative;
+        width: 400px;
+        height: 200px;
+        transform: rotate(120deg);
+        background-color: #ff0036;
+        overflow: hidden;
+        visibility: hidden;
+        align-items: center;
+    }
+    .hex-left {
+        position: absolute;
+        top: 10px;
+        left: -33px;
+        clip-path: polygon(59% 0%, 28% 50%, 59% 100%, 39% 100%, 5% 50%, 39% 0%);
+        background-image: url("../../images/about/hex-left.png");
+        background-position: right;
+        background-size: 113% 100%;
+        background-color: #ff0036;
+        width: 162px;
+        height: 180px;
+        display: inline-block;
+    }
+    .hex-right {
+        position: absolute;
+        clip-path: polygon(57% 0%, 90% 50%, 59% 100%, 37% 100%, 68% 50%, 37% 0);
+        background-image: url("../../images/about/hex-rigth.png");
+        background-position: left 42%;
+        background-size: 126% 132%;
+        width: 162px;
+        height: 180PX;
+        display: inline-block;
+        right: -39px;
+        top: 10px;
+    }
+    .cont-hex-big-area {
+        width: 260px;
+        margin: 0 auto;
+    }
+}
+
+

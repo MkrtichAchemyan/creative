@@ -1,0 +1,10 @@
+.about-title h4 span {
+    color: #ff0036 !important;
+}
+.about-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.about-title{
+    text-align: center;
+}

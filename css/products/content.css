@@ -1,0 +1,372 @@
+.products-content{
+    margin-top: 6rem;
+    padding-bottom: 340px;
+}
+
+
+/*left*/
+
+.content-line.left{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f5f5f5;
+    color: #131313;
+}
+.content-line.left h5 {
+    margin: 16px 55px 16px 14px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.content-line-hex-left {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    transform: rotate(120deg);
+    background-color: #ff0036;
+    overflow: hidden;
+    visibility: hidden;
+    right: 24px;
+    top: 62px;
+}
+.content-line-hex-left.first {
+    top: 62px;
+}
+.content-line-hex-left.second {
+    top: 118px;
+}
+.content-line-hex-left.third {
+    top: 175px;
+}
+
+.content-line-hex-left-inside {
+    width: 100%;
+    height: 100%;
+    background: darkgreen;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.content-line-hex-left-image {
+    width: 100%;
+    height: 100%;
+    background-color: #131313;
+    color: #ffffff;
+    text-align: center;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.content-line-hex-left-image i {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.content-line:hover.content-line{
+    background-color: #ff0036;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content-line:hover .content-line-hex-left-image{
+    background-color: #ffffff;
+    color: #ff0036;
+}
+
+
+/*right*/
+.content-line.right{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f5f5f5;
+    color: #131313;
+}
+.content-line.right h5 {
+    margin: 16px 14px 16px 57px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.content-line-hex-right {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    transform: rotate(120deg);
+    background-color: #ff0036;
+    overflow: hidden;
+    visibility: hidden;
+    left: 24px;
+    top: 62px;
+}
+.content-line-hex-right.first {
+    top: 62px;
+}
+.content-line-hex-right.second {
+    top: 118px;
+}
+.content-line-hex-right.third {
+    top: 175px;
+}
+
+.content-line-hex-right-inside {
+    width: 100%;
+    height: 100%;
+    background: darkgreen;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.content-line-hex-right-image {
+    width: 100%;
+    height: 100%;
+    background-color: #131313;
+    color: #ffffff;
+    text-align: center;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.content-line-hex-right-image i {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.content-line:hover.content-line{
+    background-color: #ff0036;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.content-line:hover .content-line-hex-right-image{
+    background-color: #ffffff;
+    color: #ff0036;
+}
+
+/*Center*/
+.hex-phone-content{
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+ .hex-top-part {
+     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0 100%);
+     background-color: #484848;
+     width: 420px;
+     height: 172px;
+     position: absolute;
+     top: -75px;
+ }
+
+ .hex-bottom-part {
+     clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0 100%);
+     background-color: #262626;
+     width: 420px;
+     height: 172px;
+     transform: rotate(180deg);
+     position: absolute;
+     top: 96px;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+
+.hex-bottom-part button {
+    color: #ffffff;
+    background-color: #393939;
+    border-radius: 0 !important;
+    transform: rotate(180deg);
+}
+
+.hex-bottom-part button:hover {
+    color: #ffffff;
+    background-color: #ff0036;
+    border-radius: 0 !important;
+    transform: rotate(180deg);
+}
+
+ .content-phone{
+     width: 92%;
+     height: 340px;
+     background: #d8d8d8;
+     border-radius: 40px 40px 0 0;
+     margin: 0 auto;
+     position: absolute;
+     bottom: -96px;
+     z-index: 1;
+ }
+
+.phone-camera{
+    width: 4px;
+    height: 4px;
+    background: #262626;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+.phone-bg-area{
+    width: 90%;
+    background-image: url("../../images/slider/slide1.png");
+    background-size: cover;
+    background-position: 45% 0;
+    height: 90%;
+    margin: 0 auto;
+    border-radius: 5px 5px 0 0;
+    border-style: solid;
+    border-width: 2px 2px 10px 2px;
+    border-color: #262626;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .products-content{
+        padding-bottom: 650px;
+    }
+    .hex-phone-content{
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+    }
+
+    .hex-top-part {
+        width: 420px;
+        height: 172px;
+        position: absolute;
+        top: 230px;
+    }
+
+    .hex-bottom-part {
+        width: 420px;
+        height: 172px;
+        position: absolute;
+        top: 401px;
+    }
+
+    .content-phone{
+        width: 45%;
+        height: 340px;
+        position: absolute;
+        bottom: -615px;
+        left: 190px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .products-content{
+        padding-bottom: 650px;
+    }
+
+    .hex-phone-content{
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+    }
+
+    .hex-top-part {
+        width: 420px;
+        height: 172px;
+        position: absolute;
+        top: 230px;
+    }
+
+    .hex-bottom-part {
+        width: 420px;
+        height: 172px;
+        position: absolute;
+        top: 401px;
+    }
+
+    .content-phone{
+        width: 65%;
+        height: 340px;
+        position: absolute;
+        bottom: -615px;
+        left: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+.content-phone-mobile{
+
+    position: absolute;
+    bottom: -96px;
+    display: none;
+    width: 146px;
+    height: 135px;
+    background: #d8d8d8;
+    border-radius: 10px 10px 0 0;
+    margin: -27px auto;
+    z-index: 1;
+}
+
+.content-phone-mobile .phone-camera{
+    width: 2px;
+    height: 2px;
+    background: #262626;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+
+.content-phone-mobile .phone-bg-area{
+    width: 90%;
+    background-image: url("../../images/slider/slide1.png");
+    background-size: cover;
+    background-position: 45% 0;
+    height: 90%;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #262626;
+    border-radius: 3px 3px 0 0;
+    border-width: 1px 1px 8px 1px;
+}
+
+@media screen and (max-width: 575px) and (min-width: 200px){
+    .products-content{
+        padding-bottom: 250px;
+    }
+    .hex-phone-content{
+        margin: 0 auto;
+        width: 80%;
+        height: 100%;
+    }
+
+    .hex-top-part {
+        width: 200px;
+        height: 85px;
+        position: absolute;
+        top: 64px;
+    }
+
+    .hex-bottom-part {
+        width: 200px;
+        height: 90px;
+        position: absolute;
+        top: 147px;
+    }
+
+    .hex-bottom-part button {
+        font-size: 10px;
+        color: #ffffff;
+        background-color: #393939;
+        border-radius: 0 !important;
+        transform: rotate(180deg);
+    }
+
+    .content-phone{
+        display: none;
+    }
+
+    .content-phone-mobile {
+        display: block;
+    }
+}

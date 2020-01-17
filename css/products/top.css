@@ -1,0 +1,10 @@
+.products-title h4 span {
+    color: #ff0036 !important;
+}
+.products-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.products-title{
+    text-align: center;
+}

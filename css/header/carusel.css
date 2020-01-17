@@ -1,0 +1,36 @@
+.carousel-item img {
+    height: 80%;
+}
+
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+    color: #ff0036 !important;
+    text-decoration: none;
+    outline: 0 !important;
+    opacity: 1 !important;
+    z-index: 3;
+}
+.carousel-control-prev:hover .carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0036' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next:hover .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0036' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-caption h4 span {
+    color: #ff0036 !important;
+}
+
+.carusel-buttons-area button {
+    color: #e4e4e4;
+    background-color: #ff0036;
+    border-radius: 0 !important;
+}
+
+
+.carusel-buttons-area button:hover {
+    color: #e4e4e4;
+    background-color: #131313;
+
+}
+

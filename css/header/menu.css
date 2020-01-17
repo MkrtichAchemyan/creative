@@ -1,0 +1,111 @@
+.menu {
+    background-color: #09090d;
+}
+.nav-link {
+    color: #363639 !important;
+}
+.nav-link:hover {
+    color: #6b6b6d !important;
+}
+
+.nav-item:hover .nav-link{
+    color: #6b6b6d !important;
+}
+
+.menu-item-animation-top {
+    height: 3px;
+    width: 0%;
+    background-color: #ff0036;
+}
+
+.menu-item-animation-bottom {
+    height: 2px;
+    width: 0%;
+    background-color: #ff0036;
+}
+
+.nav-item.active .menu-item-animation-bottom{
+    width: 50%;
+}
+.nav-item.active .menu-item-animation-top{
+    width: 50%;
+}
+
+.nav-item.active .nav-link {
+    color: #6b6b6d !important;
+}
+.nav-item:hover .menu-item-animation-top{
+    width: 50%;
+    transition: .3s;
+}
+.nav-item:hover .menu-item-animation-bottom{
+    width: 50%;
+    transition: 0.2s;
+}
+
+.navbar-brand{
+    z-index: 15!important;
+}
+.navbar-collapse{
+    z-index: 15!important;
+}
+
+.navbar-toggler{
+    z-index: 15 !important;
+    border: 0 !important;
+}
+
+.navbar-toggler:focus{
+   outline: none;
+}
+
+.octagonWrap {
+    width:200px;
+    height:200px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.octagonWrap img {
+    position: absolute;
+    top: 111px;
+    left: 42px;
+}
+.octagon {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    overflow: hidden;
+    transform: rotate(45deg);
+    background: transparent;
+    border: 2px solid #ff0036;
+}
+.octagon:before {
+    position: absolute;
+    /* There needs to be a negative value here to cancel
+     * out the width of the border. It's currently -3px,
+     * but if the border were 5px, then it'd be -5px.
+     */
+    top: -2px; right: -2px; bottom: -2px; left: -2px;
+    transform: rotate(45deg);
+    content: '';
+    border: inherit;
+}
+.hexagon-area{
+    position: absolute;
+    top: -90px;
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px){
+    .menu-item-animation-top {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 500px) and (min-width: 320px){
+    .menu .container .navbar .collapse .navbar-nav{
+        margin-top: 50px;
+        transition: 0.2s;
+    }
+}
