@@ -1,0 +1,14 @@
+.clients-title h4 span {
+    color: #ff0036 !important;
+}
+.clients-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.clients-title{
+    text-align: center;
+}
+
+.clients-content {
+    margin-top: 6rem;
+}
