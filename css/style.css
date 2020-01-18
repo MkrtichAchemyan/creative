@@ -2,6 +2,11 @@ body {
     font-family: PT Sans;
 }
 
+button:focus{
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .hex-line {
     width: 50%;
     height: 1px;

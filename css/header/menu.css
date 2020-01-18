@@ -71,13 +71,14 @@
     position: absolute;
     top: 111px;
     left: 42px;
+    z-index: 2;
 }
 .octagon {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     overflow: hidden;
     transform: rotate(45deg);
-    background: transparent;
+    background: #131313;
     border: 2px solid #ff0036;
 }
 .octagon:before {
@@ -99,6 +100,25 @@
 @media screen and (max-width: 991px) and (min-width: 320px){
     .menu-item-animation-top {
         display: none;
+    }
+
+    .hexagon-area{
+        position: absolute;
+        top: -50px;
+    }
+
+    .octagonWrap {
+        width:100px;
+        height:100px;
+        float: left;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .octagonWrap img {
+        top: 60px;
+        left: 18px;
+        height: 13px;
     }
 }
 

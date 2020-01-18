@@ -370,3 +370,16 @@
         display: block;
     }
 }
+
+
+.clients-content-right-logos{
+    background-color: #d8d8d8;
+    color: black;
+    padding: 25px;
+    margin: 10px 10px;
+}
+
+.clients-area-content {
+    position: relative;
+    color: #ffffff;
+}

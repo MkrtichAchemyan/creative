@@ -1,0 +1,70 @@
+.owl-item > div {
+    cursor: pointer;
+    margin: 0 auto;
+    transition: margin 0.4s ease;
+}
+.owl-item.center > div {
+    cursor: auto;
+    margin: 0;
+}
+.owl-item:not(.center) > div:hover {
+    cursor: pointer;
+}
+
+.owl-item h6 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff0036;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    background: #fff;
+    color: inherit;
+    border: none;
+    margin: 0 4px;
+    font: inherit;
+    width: 11px;
+    height: 11px;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot:focus {
+    outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot.active {
+    background: #ff0036;
+}
+
+
+.hexagon-big-owl {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    transform: rotate(120deg);
+    background-color: #ff0036;
+    overflow: hidden;
+    visibility: hidden;
+    align-items: center;
+}
+
+.hex-big-inside-owl {
+    width: 100%;
+    height: 100%;
+    background: darkgreen;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.hex-big-image-owl {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../images/clients/client1.png");
+    background-size: 111%;
+    transform: rotate(-60deg);
+    visibility: visible;
+    background-position: -38% 28%;
+}
+
+.owl-stage-outer {
+    text-align: -webkit-center;
+}
+
