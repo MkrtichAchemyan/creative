@@ -1,0 +1,74 @@
+.clients-content-right-logos{
+    background-color: #d8d8d8;
+    color: black;
+    padding: 25px;
+    margin: 10px 10px;
+}
+
+.clients-content-right-logos h5 .icon-bg{
+    background-color: #333232;
+    border-radius: 4px;
+    position: relative;
+    padding: 0px 13px;
+    margin: 8px
+
+}
+
+.clients-content-right-logos h5 .icon-bg img.fish{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -3px;
+    left: -17px;
+
+}
+
+.clients-content-right-logos h5 .icon-bg img.wasp{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    left: -3px;
+}
+
+.clients-content-right-logos h5 .icon-bg img.eagle{
+    width: 34px;
+    height: 28px;
+    position: absolute;
+    top: -3px;
+    left: -3px;
+}
+
+.clients-content-right-logos h5 .icon-bg img.insect{
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: -2px;
+    left: -4px;
+}
+
+.clients-area-content {
+    position: relative;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .clients-content-right-logos h5{
+        font-size: 11px;
+    }
+
+    .clients-content-right-logos h5 .icon-bg{
+        padding: 6px 13px;
+    }
+}
+
+@media screen and (max-width: 334px) and (min-width: 320px){
+    .clients-content-right-logos h5{
+        font-size: 11px;
+    }
+
+    .clients-content-right-logos h5 .icon-bg{
+        padding: 6px 13px;
+    }
+}

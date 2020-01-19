@@ -1,0 +1,132 @@
+.team-area{
+    padding-bottom: 7rem!important;
+}
+
+.team-designers-area .description .name h5{
+    text-align: center;
+}
+
+.team-designers-area .description .rank p{
+    text-align: center;
+}
+
+.team-designers-area .image{
+    position: relative;
+}
+.team-designers-area .image .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #262626;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+.team-designers-area:hover.team-designers-area .image .overlay{
+    height: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.team-designers-area:hover.team-designers-area .description .name h5{
+    color: #ff0036;
+}
+
+.team-designers-area .image .overlay .content-line-hex {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    transform: rotate(120deg);
+    background-color: #ff0036;
+    overflow: hidden;
+    visibility: hidden;
+    right: -14px;
+    top: 83px;
+}
+
+.team-designers-area .image .overlay .content-line-hex-inside {
+    width: 100%;
+    height: 100%;
+    background: #ff0036;
+    transform: rotate(-60deg);
+    overflow: hidden;
+}
+
+.team-designers-area .image .overlay .content-line-hex-image {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: #ff0036;
+    text-align: center;
+    transform: rotate(-60deg);
+    visibility: visible;
+}
+
+.team-designers-area .image .overlay .content-line-hex-image i {
+    font-size: 20px;
+    padding-top: 14px;
+}
+
+
+@media screen and (max-width: 1199px) and (min-width: 992px){
+    .team-designers-area .image .overlay .content-line-hex {
+        width: 80px;
+        height: 40px;
+        right: -14px;
+        top: 70px;
+    }
+    .team-designers-area .image .overlay .content-line-hex-image i {
+        font-size: 18px;
+        padding-top: 11px;
+    }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .team-designers-area .image .overlay .content-line-hex {
+        width: 150px;
+        height: 75px;
+        right: -29px;
+        top: 102px;
+    }
+    .team-designers-area .image .overlay .content-line-hex-image i {
+        font-size: 30px;
+        padding-top: 23px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px){
+    .team-designers-area .image .overlay .content-line-hex {
+        width: 80px;
+        height: 40px;
+        right: -10px;
+        top: 80px;
+    }
+    .team-designers-area .image .overlay .content-line-hex-image i {
+        font-size: 18px;
+        padding-top: 11px;
+    }
+}
+
+
+@media screen and (max-width: 575px) and (min-width: 320px){
+    .team-designers-area{
+        width: 260px;
+        height: 303px;
+        margin: 30px auto;
+    }
+
+    .team-designers-area .image .overlay .content-line-hex {
+        width: 100px;
+        height: 50px;
+        right: -14px;
+        top: 83px;
+    }
+
+    .team-designers-area .image .overlay .content-line-hex-image i {
+        font-size: 20px;
+        padding-top: 14px;
+    }
+}

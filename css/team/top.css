@@ -1,0 +1,14 @@
+.team-title h4 span {
+    color: #ff0036 !important;
+}
+.team-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.team-title{
+    text-align: center;
+}
+
+.team-content {
+    margin-top: 6rem;
+}
