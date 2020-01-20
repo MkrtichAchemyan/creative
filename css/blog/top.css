@@ -1,0 +1,14 @@
+.blogs-title h4 span {
+    color: #ff0036 !important;
+}
+.blog-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.blogs-title{
+    text-align: center;
+}
+
+.blog-content {
+    margin-top: 6rem;
+}

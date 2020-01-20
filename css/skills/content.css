@@ -1,0 +1,51 @@
+.progressbar {
+    display: inline-block;
+    width: 100%;
+    margin: 6px;
+}
+.circle {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+.circle canvas {
+    vertical-align: middle;
+    width: 180px;
+    height: 180px;
+}
+.circle div {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 40px;
+    color: #ff0036;
+}
+.circle strong i {
+    font-style: normal;
+    font-size: 0.6em;
+    font-weight: normal;
+}
+.circle span {
+    display: inline;
+    color: #212529;
+    margin-top: 12px;
+}
+.progressbar-area .description{
+    margin: 6px;
+    width: 100%;
+}
+
+.progressbar-area .description .name h5{
+    text-align: center;
+    font-weight: bold;
+}
+
+.progressbar-area .description .rank p{
+    text-align: center;
+}

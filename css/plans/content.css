@@ -1,0 +1,58 @@
+.reseller{
+    width: 100%;
+    border: 1px solid #fafafa;
+}
+
+.reseller .top{
+    background-color: #262626;
+}
+
+.reseller .top h4{
+    text-align: center;
+    color: #ffffff;
+}
+.reseller .price{
+    background-color: #f2f2f2;
+    border-bottom: 1px #fafafa;
+}
+
+.reseller .price h1{
+    color: #262626;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.reseller .price h1{
+    color: #262626;
+    text-align: center;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+.reseller .price h1 sub{
+    color: #5d5d5d;
+    font-weight: bold;
+    font-size: 40%;
+}
+.reseller .content h6{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #fafafa;
+}
+.reseller .footer h4{
+    background-color: #262626;
+    text-align: center;
+    color: #ffffff;
+}
+.reseller:hover{
+    cursor: pointer;
+}
+
+.reseller:hover.reseller .footer h4{
+    background-color: #ff0036;
+}
+
+.reseller:hover.reseller .top{
+    background-color: #ff0036;
+}

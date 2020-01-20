@@ -1,0 +1,44 @@
+.twitter-area {
+    background-color: #272727;
+    padding-bottom: 6rem;
+}
+
+.twitter-top{
+    position: relative;
+}
+
+.twitter-area .big-logo{
+    position: relative;
+}
+
+.twitter-area .big-logo i{
+    font-size: 150px;
+    color: #3d3d3d;
+    transform: rotate(-17deg);
+    position: absolute;
+    left: 30px;
+    top: 115px;
+}
+
+.twitter-title h4 {
+    color: #ffffff !important;
+}
+
+.twitter-desc p{
+    color: #ffffff !important;
+}
+
+.twitter-title h4 span {
+    color: #ff0036 !important;
+}
+.twitter-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.twitter-title{
+    text-align: center;
+}
+
+.twitter-content {
+    margin-top: 6rem;
+}

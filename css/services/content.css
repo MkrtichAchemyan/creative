@@ -1,0 +1,48 @@
+.service {
+
+}
+.service h5{
+    color: #c2c2c2;
+    padding-left: 74px;
+}
+
+.service h5 .content-line.right{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #f5f5f5;
+}
+.service h5 .content-line.right h5 {
+    margin: 16px 14px 16px 57px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.service h5 .content-line-hex-right {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    transform: rotate(120deg);
+    background-color: #a4a4a4;
+    overflow: hidden;
+    visibility: hidden;
+    top: -14px;
+    left: 0;
+}
+.service h5 .content-line-hex-right .content-line-hex-right-inside .content-line-hex-right-image i{
+    font-size: 30px;
+    padding-top: 11px;
+    color: #373737;
+}
+
+.service h5 .content-line-hex-right .content-line-hex-right-inside .content-line-hex-right-image{
+    background-color: #a4a4a4;
+}
+
+.service .description {
+    background-color: #343434;
+    width: 100%;
+}
+.service .description p{
+   color: #5c5c5c;
+}
+

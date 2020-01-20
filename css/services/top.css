@@ -1,0 +1,22 @@
+.services-title h4 {
+    color: #ffffff !important;
+}
+
+.services-desc p{
+    color: #ffffff !important;
+}
+
+.services-title h4 span {
+    color: #ff0036 !important;
+}
+.services-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.services-title{
+    text-align: center;
+}
+
+.services-content {
+    margin-top: 6rem;
+}

@@ -1,0 +1,70 @@
+.follow-content {
+    margin: 3% 20%;
+}
+
+.hexagon-follow-footer {
+    position: relative;
+    width: 100px;
+    height: 57.74px;
+    background-color: transparent;
+    margin: 28.87px 0;
+    border-left: solid 2px #ff0036;
+    border-right: solid 2px #ff0036;
+    transform: rotate(90deg);
+}
+
+.hexagon-follow-footer:before,
+.hexagon-follow-footer:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 70.71px;
+    height: 70.71px;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 12.6447px;
+}
+
+.hexagon-follow-footer:before {
+    top: -35.3553px;
+    border-top: solid 2.8284px #ff0036;
+    border-right: solid 2.8284px #ff0036;
+}
+
+.hexagon-follow-footer:after {
+    bottom: -35.3553px;
+    border-bottom: solid 2.8284px #ff0036;
+    border-left: solid 2.8284px #ff0036;
+}
+
+.hexagon-follow-footer .icon-area {
+    position: relative;
+    font-size: 40px;
+    padding-left: 36%;
+    z-index: 2;
+    transform: rotate(-90deg);
+}
+
+.hexagon-follow-footer .icon-area.google{
+    padding-left: 30%;
+}
+
+.hexagon-follow-footer .icon-area {
+    color: #ff0036;
+}
+
+.hexagon-follow-footer {
+    margin: 33px auto;
+}
+
+
+.hexagon-follow-footer:hover.hexagon-follow-footer .icon-area{
+    color: #ffffff;
+}
+
+.hexagon-follow-footer:hover {
+    background-color: #ff0036;
+    cursor: pointer;
+}

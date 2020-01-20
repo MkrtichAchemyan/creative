@@ -1,0 +1,23 @@
+.services-area {
+    background-color: #272727;
+    padding-bottom: 6rem;
+}
+
+.service-area:hover{
+    cursor: pointer;
+}
+
+.service-area:hover .service h5 .content-line-hex-right .content-line-hex-right-inside .content-line-hex-right-image i{
+    color: #ffffff;
+}
+
+.service-area:hover .service h5 .content-line-hex-right .content-line-hex-right-inside .content-line-hex-right-image{
+    background-color: #ff0036;
+}
+
+.service-area:hover .service .description {
+    background-color: #3d2329;
+}
+.service-area:hover .service .description p{
+    color: #ffffff;
+}

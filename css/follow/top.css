@@ -1,0 +1,15 @@
+.follow-title h4 span {
+    color: #ff0036 !important;
+}
+.follow-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.follow-title{
+    text-align: center;
+}
+
+.follow-area-content {
+    position: relative;
+    color: #ffffff;
+}
