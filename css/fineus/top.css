@@ -1,0 +1,14 @@
+.fine-title h4 span {
+    color: #ff0036 !important;
+}
+.fine-desc p span {
+    color: #ff0036 !important;
+    text-align: center;
+}
+.fine-title{
+    text-align: center;
+}
+
+.fine-content {
+    margin-top: 6rem;
+}

@@ -1,0 +1,77 @@
+.contact-us-area .content input, textarea {
+    border-radius: 0 !important;
+}
+.contact-us-area .content input:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+.contact-us-area {
+    background-color: #ffffff;
+    width: 90%;
+    z-index: 2;
+    padding-bottom: 5rem !important;
+    position: absolute;
+    bottom: 0;
+}
+
+.contacts-area {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 6rem;
+}
+
+.map iframe {
+    position: relative;
+}
+
+.contact-us-area .footer button {
+    background-color: #131313;
+    color: #ffffff;
+    border-radius: 0 !important;
+}
+
+.contact-us-area .footer{
+    float: right;
+}
+
+.address-area{
+    background-color: #131313;
+    color: #ffffff;
+    position: absolute;
+    z-index: 2;
+    width: 250px;
+    right: 40%;
+    bottom: 240px;
+}
+
+.address-area:after {
+    content: '';
+    position: absolute;
+    right: 35px;
+    top: 134px;
+    border: 25px solid transparent;
+    border-top: 80px solid #131313;
+    border-left: 2px solid transparent;
+    transform: rotate(30deg);
+}
+
+.address-area p {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 577px) and (min-width: 320px){
+    .contacts-area {
+        padding: 0;
+    }
+    .contact-us-area{
+        margin: 0 !important;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 320px){
+   .address-area {
+       display: none;
+   }
+}
+
+
