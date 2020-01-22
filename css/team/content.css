@@ -2,6 +2,11 @@
     padding-bottom: 7rem!important;
 }
 
+.team-designers-area {
+    border: 1px solid #fafafa;
+    cursor: pointer;
+}
+
 .team-designers-area .description .name h5{
     text-align: center;
 }
@@ -28,6 +33,10 @@
     height: 100%;
     transition: 0.5s;
     cursor: pointer;
+}
+
+.team-designers-area:hover{
+    border-color: #d4d4d4;
 }
 
 .team-designers-area:hover.team-designers-area .description .name h5{
